@@ -1,35 +1,63 @@
-name: CI
+name: CI/CD
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main]
   pull_request:
-    branches: [main, develop]
 
 jobs:
-  test:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
-      - name: Checkout repository
+      # 1. Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
+      # 2. Setup Node & PNPM
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
 
-      - name: Install pnpm
+      - name: Setup PNPM
         uses: pnpm/action-setup@v3
         with:
-          version: 8
+          version: 9
 
+      # 3. Install deps
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
-      - name: Run unit tests
-        run: pnpm test
+      # # 4. Setup Turbo remote cache
+      # - name: Setup Turborepo
+      #   run: npx turbo link --token=${{ secrets.TURBO_TOKEN }} || true
+      #   env:
+      #     TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      #     TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 
-      - name: Run e2e tests
-        run: pnpm e2e
+      # 5. Run tests
+      - name: Run tests
+        run: pnpm turbo run test
+
+      - name: Run e2e 
+        run: pnpm turbo run e2e
+
+      # # 6. Build apps
+      # - name: Build
+      #   run: pnpm turbo run build --filter=...
+
+      # # 7. Deploy to Vercel (only on main branch push, not PRs)
+      # - name: Deploy to Vercel
+      #   if: github.ref == 'refs/heads/main'
+      #   run: |
+      #     npx vercel pull --yes --environment=production \
+      #       --token=${{ secrets.VERCEL_TOKEN }}
+      #     npx vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+      #     npx vercel deploy --prebuilt --prod \
+      #       --token=${{ secrets.VERCEL_TOKEN }}
+      #   env:
+      #     VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      #     VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
