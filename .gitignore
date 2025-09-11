@@ -16,7 +16,7 @@ node_modules
 coverage
 
 # Turbo
-# .turbo
+.turbo
 
 # Vercel
 .vercel
@@ -36,3 +36,6 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
+
+# Turborepo
+.turbo
