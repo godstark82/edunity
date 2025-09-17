@@ -27,37 +27,17 @@ jobs:
           version: 9
           run_install: false
 
-      # 3. Install deps
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      # # 4. Setup Turbo remote cache
-      # - name: Setup Turborepo
-      #   run: npx turbo link --token=${{ secrets.TURBO_TOKEN }} || true
+      # - name: Setup Turborepo Remote Cache
+      #   run: npx turbo link --token=${{ secrets.TURBO_TOKEN }}
       #   env:
       #     TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       #     TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 
-      # 5. Run tests
       - name: Run tests
         run: pnpm turbo run test
 
       - name: Run e2e 
         run: pnpm turbo run e2e
-
-      # # 6. Build apps
-      # - name: Build
-      #   run: pnpm turbo run build --filter=...
-
-      # # 7. Deploy to Vercel (only on main branch push, not PRs)
-      # - name: Deploy to Vercel
-      #   if: github.ref == 'refs/heads/main'
-      #   run: |
-      #     npx vercel pull --yes --environment=production \
-      #       --token=${{ secrets.VERCEL_TOKEN }}
-      #     npx vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
-      #     npx vercel deploy --prebuilt --prod \
-      #       --token=${{ secrets.VERCEL_TOKEN }}
-      #   env:
-      #     VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-      #     VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
