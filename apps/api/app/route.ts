@@ -1,5 +1,5 @@
-import { NextResponse } from "next/server";
 import { errorResponse, successResponse } from "../utils/response-wraper";
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 export async function GET() {
@@ -14,10 +14,11 @@ export async function GET() {
 }}  
 =======
 import { createServerSideClient } from "@edunity/supabase"
+=======
+>>>>>>> origin/main
 
 export async function GET() {
   try {
-    const supabase = createServerSideClient()
     const result = {
       message: "Welcome to Edunity API",
       timestamp: new Date().toISOString(),
