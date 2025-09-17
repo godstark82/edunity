@@ -1,0 +1,16 @@
+{
+  "name": "@edunity/supabase",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.7.0",
+    "next": "^15.5.0"
+  }
+}

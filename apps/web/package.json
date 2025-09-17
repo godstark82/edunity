@@ -13,6 +13,7 @@
     "e2e": "playwright test --pass-with-no-tests"
   },
   "dependencies": {
+    "@edunity/supabase": "workspace:*",
     "@repo/ui": "workspace:*",
     "jsdom": "^26.1.0",
     "next": "^15.5.0",
