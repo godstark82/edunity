@@ -1,6 +1,6 @@
 import Image, { type ImageProps } from "next/image";
-import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
+import { Button } from "@edunity/ui/button";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -63,7 +63,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="docs" className={styles.secondary}>
+        <Button className={styles.secondary}>
           Open alert
         </Button>
       </main>

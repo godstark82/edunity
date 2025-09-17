@@ -1,21 +1,47 @@
-[?9001h[?1004h[?25l[2J[m[2;1H> api@0.1.0 build C:\projects\redevs\edunity\apps\api
-> next build[5;1H]0;C:\WINDOWS\system32\cmd.exe[?25h   [38;2;173;127;168m[1m▲ Next.js 15.5.0
-[m
- [37m[1m [m Creating an optimized production build ...
- [32m[1m✓[m Compiled successfully in 1551ms
- [37m[1m [m Linting and checking validity of types  [36m.[?25l[m[K[181C [37m[1m [m Linting and checking validity of types  [36m..[m[K[181C [37m[1m [m Linting and checking validity of types  [36m...[m[K[181C [37m[1m [m Linting and checking validity of types  [36m.[m[K[181C [37m[1m [m Linting and checking validity of types  [36m..[m[K[181C [37m[1m [m Linting and checking validity of types  [36m...[m[K[181C [37m[1m [m Linting and checking validity of types  [36m.[m[K[181C [37m[1m [m Linting and checking validity of types  [36m..[m[K[181C [37m[1m [m Linting and checking validity of types  [36m...[m[K[181C [37m[1m [m Linting and checking validity of types  [36m.[m[K[181C [37m[1m [m Linting and checking validity of types  [36m..[m[K[181C [37m[1m [m Linting and checking validity of types  [36m...[m[K[181C [37m[1m [m Linting and checking validity of types  [36m.[m[K[181C [37m[1m [m Linting and checking validity of types  [36m..[m[K[181C [37m[1m [m Linting and checking validity of types  [36m...[m[K[181C [37m[1m [m Linting and checking validity of types  [36m.[m[K[181C [37m[1m [m Linting and checking validity of types  [36m..[m[K[181C [37m[1m [m Linting and checking validity of types  [36m...[m[K[181C [37m[1m [m Linting and checking validity of types  [36m.[m[K[181C [32m[1m✓[m Linting and checking validity of types    
- [37m[1m [m Collecting page data  [36m.[m[K[181C [37m[1m [m Collecting page data  [36m..[m[K[181C [37m[1m [m Collecting page data  [36m...[m[K[181C [37m[1m [m Collecting page data  [36m.[m[K[181C [37m[1m [m Collecting page data  [36m..[m[K[181C [37m[1m [m Collecting page data  [36m...[m[K[181C [32m[1m✓[m Collecting page data    
-[?25h[?25l [37m[1m [m Generating static pages (0/5)  [36m[    ][m[K[181C [37m[1m [m Generating static pages (0/5)  [36m[=   ][m[K[181C [37m[1m [m Generating static pages (0/5)  [36m[==  ][m[K[181C [37m[1m [m Generating static pages (0/5)  [36m[=== ][m[K[181C [37m[1m [m Generating static pages (0/5)  [36m[ ===][m[K[181C [37m[1m [m Generating static pages (0/5)  [36m[  ==][m[K[181C [32m[1m✓[m Generating static pages (5/5)
-[?25h[?25l [37m[1m [m Finalizing page optimization  [36m. [37m[1m [m Collecting build traces  [36m.[m[K[181C [37m[1m [m Collecting build traces  [36m..[K[151C[m[K[181C [37m[1m [m Collecting build traces  [36m...[K[150C[m[K[181C [37m[1m [m Collecting build traces  [36m.[K[152C[m[K[181C [37m[1m [m Collecting build traces  [36m..[K[151C[m[K[181C [37m[1m [m Collecting build traces  [36m...[K[150C[m[K[181C [37m[1m [m Collecting build traces  [36m.[K[152C[m[K[181C [37m[1m [m Collecting build traces  [36m..[K[151C[m[K[181C [37m[1m [m Collecting build traces  [36m...[K[150C[m[K[181C [37m[1m [m Collecting build traces  [36m.[K[152C[m[K[181C [37m[1m [m Collecting build traces  [36m..[K[151C[m[K[181C [37m[1m [m Collecting build traces  [36m...[K[150C[m[K[181C [37m[1m [m Collecting build traces  [36m.[K[152C[m[K[181C [37m[1m [m Collecting build traces  [36m..[K[151C[m[K[181C [37m[1m [m Collecting build traces  [36m...[K[150C[m[K[181C [37m[1m [m Collecting build traces  [36m.[K[152C[m[K[181C [37m[1m [m Collecting build traces  [36m..[K[151C[m[K[181C [37m[1m [m Collecting build traces  [36m...[K[150C[m[K[181C [37m[1m [m Collecting build traces  [36m.[K[152C[m[K[181C [37m[1m [m Collecting build traces  [36m..[K[151C[m[K[181C [37m[1m [m Collecting build traces  [36m...[K[150C[m[K[181C [37m[1m [m Collecting build traces  [36m.[K[152C[m[K[181C [37m[1m [m Collecting build traces  [36m..[K[151C[m[K[181C [37m[1m [m Collecting build traces  [36m...[K[150C[m[K[181C [37m[1m [m Collecting build traces  [36m.[K[152C[m[K[181C [37m[1m [m Collecting build traces  [36m..[K[151C[m[K[181C [32m[1m✓[m Collecting build traces    
- [32m[1m✓[m Finalizing page optimization[K[4m[15;1HRoute (app)[24m[33X[4m[33CSize[24m  [4mFirst Load JS[24m    [?25h
-┌ ○ /                                    5.71 kB[37m[1m[9C107 kB[m[K
-└ ○ /_not-found                            992 B[37m[1m[9C103 kB[m[K
-+ First Load JS shared by all[37m[1m[13C102 kB[m[K
-  ├ chunks/03800e7b-469b408b57b3e4e0.js  54.2 kB
-  ├ chunks/547-b8ee9ed71d83264e.js       45.4 kB
-  └ other shared chunks (total)          1.97 kB
 
+> api@0.1.0 build C:\projects\redevs-projects\edunity\apps\api
+> next build
 
-○  (Static)  prerendered as static content
+   ▲ Next.js 15.5.0
+   - Environments: .env.local, .env.production
 
-[?9001l[?1004l
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 2.5s
+   Linting and checking validity of types ...
+
+./app/route.ts
+6:11  Warning: 'supabase' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+12:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+./app/university/route.ts
+5:27  Warning: 'req' is defined but never used.  @typescript-eslint/no-unused-vars
+38:17  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+ ✓ Generating static pages (4/4)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                  Size  First Load JS
+┌ ƒ /                                       127 B         101 kB
+└ ƒ /university                             127 B         101 kB
++ First Load JS shared by all              101 kB
+  ├ chunks/03800e7b-469b408b57b3e4e0.js   54.2 kB
+  ├ chunks/836-9fc942a3c333b1c1.js        44.6 kB
+  └ other shared chunks (total)           1.84 kB
+
+Route (pages)                                Size  First Load JS
+─ ○ /404                                  2.28 kB        96.9 kB
++ First Load JS shared by all             94.6 kB
+  ├ chunks/framework-2766985770611e91.js  57.6 kB
+  ├ chunks/main-a8deb4220bfcefba.js       34.8 kB
+  └ other shared chunks (total)           2.23 kB
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+

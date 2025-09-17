@@ -22,6 +22,7 @@ export const config = [
       globals: {
         ...globals.serviceworker,
         ...globals.browser,
+        "@typescript-eslint/no-explicit-any": false,
       },
     },
   },

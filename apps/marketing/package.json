@@ -13,7 +13,7 @@
     "e2e": "playwright test --pass-with-no-tests"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
+    "@edunity/ui": "workspace:*",
     "next": "^15.5.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

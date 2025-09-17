@@ -2,7 +2,7 @@ import { NextRequest } from "next/server";
 import { createServerSideClient } from "@edunity/supabase";
 import { ApiResponse, ErrorCode, HttpStatus } from "@edunity/helpers"
 
-export async function GET(req: NextRequest) {
+export async function GET() {
     try {
         const supabase = await createServerSideClient();
         if (!supabase) {
