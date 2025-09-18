@@ -13,23 +13,24 @@
     "e2e": "playwright test --pass-with-no-tests"
   },
   "dependencies": {
-    "@edunity/supabase": "workspace:*",
     "@edunity/helpers": "workspace:*",
+    "@edunity/supabase": "workspace:*",
     "@edunity/ui": "workspace:*",
     "next": "^15.5.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "zod": "^4.1.9"
   },
   "devDependencies": {
-    "vitest": "^2.0.0",
-    "@testing-library/react": "^15.0.0",
     "@playwright/test": "^1.47.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@testing-library/react": "^15.0.0",
     "@types/node": "^22.15.3",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
     "eslint": "^9.34.0",
-    "typescript": "5.9.2"
+    "typescript": "5.9.2",
+    "vitest": "^2.0.0"
   }
 }
