@@ -12,8 +12,7 @@ function successResponse(data: any, statusCode = 200) {
     }
   );
 }
-
-function errorResponse(error: any, statusCode = 500) {
+function errorResponse(error: string, statusCode = 500) {
   return NextResponse.json(
     {
       success: false,

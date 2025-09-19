@@ -14,8 +14,8 @@ const updateUniversitySchema = universitySchema.partial().extend({
 
 // 2. Generate the handlers by calling the factory with your configuration
 const { GET, POST, PUT, DELETE } = createCrudHandlers({
-  tableName: "university",
-  resourceName: "University",
+  tableName: "collage",
+  resourceName: "College",
   createSchema: universitySchema,
   updateSchema: updateUniversitySchema,
 });
