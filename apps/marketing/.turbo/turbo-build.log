@@ -1,30 +1,27 @@
 
-> marketing@0.1.0 build C:\projects\redevs-projects\edunity\apps\marketing
+
+> marketing@0.1.0 build /home/leader/projects/redevs-projects/edunity/apps/marketing
 > next build
 
-   ▲ Next.js 15.5.0
-   - Environments: .env.local, .env.production
+   [1m[38;2;173;127;168m▲ Next.js 15.5.0[39m[22m
 
-   Creating an optimized production build ...
- ✓ Compiled successfully in 2.6s
-   Linting and checking validity of types ...
-   Collecting page data ...
-   Generating static pages (0/5) ...
-   Generating static pages (1/5) 
-   Generating static pages (2/5) 
-   Generating static pages (3/5) 
- ✓ Generating static pages (5/5)
-   Finalizing page optimization ...
-   Collecting build traces ...
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [32m[1m✓[22m[39m Compiled successfully in 1548ms
+[?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Linting and checking validity of types     [32m[1m✓[22m[39m Linting and checking validity of types 
+[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
+[?25l [37m[1m [22m[39m Generating static pages (0/5)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/5)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/5)  [36m[==  ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/5)  [36m[=== ][39m[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (5/5)
+[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces     [32m[1m✓[22m[39m Collecting build traces 
+[2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization     [32m[1m✓[22m[39m Finalizing page optimization 
 
-Route (app)                                 Size  First Load JS
-┌ ○ /                                    5.57 kB         107 kB
-└ ○ /_not-found                            992 B         103 kB
-+ First Load JS shared by all             102 kB
+[4mRoute (app)[24m                                 [4mSize[24m  [4mFirst Load JS[24m  [4m[24m  [4m[24m
+┌ ○ /                                      123 B         [37m[1m102 kB[22m[39m
+└ ○ /_not-found                            994 B         [37m[1m103 kB[22m[39m
++ First Load JS shared by all             [37m[1m102 kB[22m[39m
   ├ chunks/03800e7b-469b408b57b3e4e0.js  54.2 kB
   ├ chunks/547-b8ee9ed71d83264e.js       45.4 kB
-  └ other shared chunks (total)          1.98 kB
+  └ other shared chunks (total)           1.9 kB
 
 
 ○  (Static)  prerendered as static content
 
+[?25h

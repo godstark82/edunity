@@ -1,5 +1,13 @@
-[?9001h[?1004h[?25l[2J[m[2;1H> api@0.1.0 test C:\projects\redevs-projects\edunity\apps\api
-> vitest run[5;1H]0;C:\WINDOWS\system32\cmd.exe[?25h]0;node (vitest)
-[?25l[36m[1m[7m RUN [m [36mv2.1.9 [90mC:/projects/redevs-projects/edunity/apps/api[8;1H[?25h[m[2minclude: [33m[22m**/*.{test,spec}.?(c|m)[jt]s?(x)
-[?25l[m[2mexclude:  [33m[22m**/node_modules/**[2m, [22m**/dist/**[2m, [22m**/cypress/**[2m, [22m**/.{idea,git,cache,output,temp}/**[2m, [22m**/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build,eslint,prettier}.config.*[m
-No test files found, exiting with code 0[13;1H[?25h[?9001l[?1004l
+
+
+> api@0.1.0 test /home/leader/projects/redevs-projects/edunity/apps/api
+> vitest run
+
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.9 [39m[90m/home/leader/projects/redevs-projects/edunity/apps/api[39m
+
+[2minclude: [22m[33m**/*.{test,spec}.?(c|m)[jt]s?(x)[39m
+[2mexclude:  [22m[33m**/node_modules/**[2m, [22m**/dist/**[2m, [22m**/cypress/**[2m, [22m**/.{idea,git,cache,output,temp}/**[2m, [22m**/{karma,rollup,webpack,vite,vitest,jest,ava,babel,nyc,cypress,tsup,build,eslint,prettier}.config.*[39m
+No test files found, exiting with code 0
+
+[?25h
