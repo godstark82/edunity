@@ -16,6 +16,8 @@ interface CrudHandlersConfig<C extends ZodType, U extends ZodType> {
   beforeInsert?: (data: z.infer<C>) => Promise<z.infer<C>>;
 }
 
+// Commet Added By VENOMLEADER
+
 /**
  * A higher-order function to handle common API logic like Supabase client
  * instantiation, global error handling, and authentication checks.
