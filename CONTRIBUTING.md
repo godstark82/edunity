@@ -3,12 +3,13 @@
 Thanks for your interest in contributing!  
 Please follow these rules to keep the project maintainable and consistent.
 
-# Getting Started
-
-## 1. Fork the repository and clone it locally.
-## 2. Create a new branch for your work:
+## Getting Started
+1. Fork the repository and clone it locally.
+2. Create a new branch for your work:
    ```bash
    git checkout -b feature/my-feature
+
+---
 
 ## 3. `.github/pull_request_template.md`
 ```markdown
