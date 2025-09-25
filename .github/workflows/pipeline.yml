@@ -37,7 +37,7 @@ jobs:
       #     TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 
       - name: Run tests
-        run: pnpm turbo run test
+        run: pnpm test
 
       - name: Run e2e 
-        run: pnpm turbo run e2e
+        run: pnpm e2e

@@ -1,47 +1,50 @@
 
-> api@0.1.0 build C:\projects\redevs-projects\edunity\apps\api
+
+> api@0.1.0 build /home/leader/projects/redevs-projects/edunity/apps/api
 > next build
 
-   ▲ Next.js 15.5.0
-   - Environments: .env.local, .env.production
+   [1m[38;2;173;127;168m▲ Next.js 15.5.0[39m[22m
 
-   Creating an optimized production build ...
- ✓ Compiled successfully in 2.5s
-   Linting and checking validity of types ...
+ [37m[1m [22m[39m Creating an optimized production build ...
+ [32m[1m✓[22m[39m Compiled successfully in 1575ms
+[?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G[?25h
+./app/_common/crudFactory.ts
+15:21  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+15:39  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+26:29  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+48:15  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+157:16  Warning: 'error' is defined but never used.  @typescript-eslint/no-unused-vars
+175:94  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
 
 ./app/route.ts
-6:11  Warning: 'supabase' is assigned a value but never used.  @typescript-eslint/no-unused-vars
-12:19  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
-
-./app/university/route.ts
-5:27  Warning: 'req' is defined but never used.  @typescript-eslint/no-unused-vars
-38:17  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
+11:18  Warning: Unexpected any. Specify a different type.  @typescript-eslint/no-explicit-any
 
 info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
-   Collecting page data ...
-   Generating static pages (0/4) ...
-   Generating static pages (1/4) 
-   Generating static pages (2/4) 
-   Generating static pages (3/4) 
- ✓ Generating static pages (4/4)
-   Finalizing page optimization ...
-   Collecting build traces ...
+[?25l [36m.[39m [2K[1G [36m..[39m [2K[1G [36m...[39m [2K[1G [36m.[39m [2K[1G [36m..[39m [2K[1G [36m...[39m [2K[1G[?25h    [32m[1m✓[22m[39m Linting and checking validity of types 
+[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
+[?25l [37m[1m [22m[39m Generating static pages (0/7)  [36m[    ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/7)  [36m[=   ][39m[2K[1G [37m[1m [22m[39m Generating static pages (0/7)  [36m[==  ][39m[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (7/7)
+[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces     [32m[1m✓[22m[39m Collecting build traces 
+[2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization     [32m[1m✓[22m[39m Finalizing page optimization 
 
-Route (app)                                  Size  First Load JS
-┌ ƒ /                                       127 B         101 kB
-└ ƒ /university                             127 B         101 kB
-+ First Load JS shared by all              101 kB
+[4mRoute (app)[24m                                  [4mSize[24m  [4mFirst Load JS[24m  [4m[24m  [4m[24m
+┌ ƒ /                                       136 B         [37m[1m101 kB[22m[39m
+├ ƒ /college                                136 B         [37m[1m101 kB[22m[39m
+├ ƒ /course                                 136 B         [37m[1m101 kB[22m[39m
+├ ƒ /department                             136 B         [37m[1m101 kB[22m[39m
+└ ƒ /university                             136 B         [37m[1m101 kB[22m[39m
++ First Load JS shared by all              [37m[1m100 kB[22m[39m
   ├ chunks/03800e7b-469b408b57b3e4e0.js   54.2 kB
   ├ chunks/836-9fc942a3c333b1c1.js        44.6 kB
-  └ other shared chunks (total)           1.84 kB
+  └ other shared chunks (total)           1.59 kB
 
-Route (pages)                                Size  First Load JS
-─ ○ /404                                  2.28 kB        96.9 kB
-+ First Load JS shared by all             94.6 kB
+[4mRoute (pages)[24m                                [4mSize[24m  [4mFirst Load JS[24m  [4m[24m  [4m[24m
+─ ○ /404                                    181 B          [37m[1m96 kB[22m[39m
++ First Load JS shared by all             [37m[1m95.8 kB[22m[39m
   ├ chunks/framework-2766985770611e91.js  57.6 kB
-  ├ chunks/main-a8deb4220bfcefba.js       34.8 kB
-  └ other shared chunks (total)           2.23 kB
+  ├ chunks/main-756dc9facf86177b.js       36.6 kB
+  └ other shared chunks (total)           1.66 kB
 
 ○  (Static)   prerendered as static content
 ƒ  (Dynamic)  server-rendered on demand
 
+[?25h

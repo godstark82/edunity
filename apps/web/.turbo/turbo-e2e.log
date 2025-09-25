@@ -1,4 +1,11 @@
-[?9001h[?1004h[?25l[2J[m[2;1H> web@0.1.0 e2e C:\projects\redevs-projects\edunity\apps\web
-> playwright test --pass-with-no-tests[5;1H]0;C:\WINDOWS\system32\cmd.exe[?25h
 
-[?25lTo open last HTML report run:[36m[9;1H  pnpm exec playwright show-report[11;1H[?25h[?9001l[?1004l[m
+
+> web@0.1.0 e2e /home/leader/projects/redevs-projects/edunity/apps/web
+> playwright test --pass-with-no-tests
+
+
+
+To open last HTML report run:
+[36m[39m
+[36m  pnpm exec playwright show-report[39m
+[36m[39m
